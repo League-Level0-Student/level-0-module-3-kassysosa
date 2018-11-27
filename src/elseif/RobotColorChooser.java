@@ -19,18 +19,27 @@ public class RobotColorChooser {
 
         //6. If the user doesn't enter anything, choose a random color
 if(answer.equals("red")) {
-	sparkles.setPenColor(Color.red);
-	}
-else if(answer.equals("yellow")){
-	sparkles.setPenColor(Color.yellow);
-	else if(answer.equals("purple")	
-}
+	sparkles.setPenColor(Color.red);}
+	
+else if(answer.equals("yellow")) {
+	sparkles.setPenColor(Color.yellow);}
+	else if(answer.equals("cyan")) {
+		sparkles.setPenColor(Color.cyan);}
+	else if (answer.equals("orange")) {
+		sparkles.setPenColor(Color.orange);}
+	else if(answer.equals("pink")) {
+			sparkles.setPenColor(Color.pink);}
+
+	
         //7. Put a loop around your code so that you keep asking the user for more colors & drawing them
 		
 		//4. Set the pen width to 10
-		sparkles.setPenWidth(10);
+		sparkles.setPenWidth(10); 
+		
 	    //2. Make the robot draw a shape (this will take more than one line of code)
-
+		sparkles.setSpeed(20);
+sparkles.move(100);
 
 	}
+
 }
